@@ -3,7 +3,7 @@ package com.terminator.annotation;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("myBeanName")
 // @Scope("prototype") -> this by default is Singleton
 public class CloudService {
 
